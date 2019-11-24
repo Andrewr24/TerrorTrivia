@@ -6,31 +6,32 @@ var options = [
 		question: "Who was the main villain in Friday the 13th?", 
 		choice: ["Elias Voorhees", "Jason Voorhees", "Pamela Voorhees",],
 		answer: 2,
-		
+		photo : "assets/images/Pamela_Voorhees.jpg"
 	 },
 	 {
 	 	question: "Where did A Nightmare on Elm Street take place?", 
 		choice: ["Springwood, Ohio", "Springfield, California", "Cunnungham County, New Jersey",],
 		answer: 0,
-		
+		photo: "assets/images/Freddie-Kruger.jpg"
 	 }, 
  
 	{
 		question: "Finish this quote: all work and no play _?", 
 		choice: ["Makes Johnny a dull boy", "Makes Danny a dull boy", "Makes Jack a dull boy"],
 		answer: 2,
-		
+		photo: "assets/images/Jack_Torrence.jpg"
 	}, 
 	{
 		question: "Which Movie Premierd first? ", 
 		choice: ["Frankenstien","The Wolf Man", "Dracula" ],
 		answer: 2,
-		
+		photo: "assets/images/Dracula.jpg"
     },
     {
         question: "What was the name of the first horror movie?",
         choice: ["Nosferatu", "Dr. Jekyll and Mr. Hyde", "Le Manoir du Diable"],
-        answer: 2
+		answer: 2 ,
+		photo: "assets/images/Manoir_du_diable.jpg"
     }];
 
 var correctCount = 0;
